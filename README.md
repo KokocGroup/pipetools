@@ -8,6 +8,8 @@ Going to:
 $ cat file.txt | python -m pipetools 'str.split | str.lower | groupby(count) | ... '
 ```
 
+Current Example of code:
+
 ```
 import re
 from functools import partial
