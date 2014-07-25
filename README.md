@@ -1,6 +1,13 @@
 pipetools
 =========
 
+
+Going to:
+
+```
+$ cat file.txt | python -m piptools 'List(__input__) | str.split | str.lower'
+```
+
 ```
 import re
 from functools import partial
