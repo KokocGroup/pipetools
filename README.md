@@ -5,7 +5,7 @@ pipetools
 Going to:
 
 ```
-$ cat file.txt | python -m piptools 'List(__input__) | str.split | str.lower'
+$ cat file.txt | python -m pipetools 'str.split | str.lower | groupby(x => x[0])'
 ```
 
 ```
